@@ -20,7 +20,7 @@ h1 {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(000);
+    border: 1px solid rgb(0, 0, 0);
     /*1️⃣*/
     padding: 1rem;
     background-color: #eee;
@@ -40,7 +40,7 @@ main img {
     height: auto;
     border: #000;
     padding: 0;
-    box-shadow: 2px #eee;
+    box-shadow: 2px solid #eee;
 }
 
 p {

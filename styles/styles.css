@@ -40,7 +40,7 @@ main img {
     height: auto;
     border: #000;
     padding: 0;
-    box-shadow: 2px solid #333;
+    box-shadow: #333;
 }
 
 p {

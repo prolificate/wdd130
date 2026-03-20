@@ -57,17 +57,17 @@ article {
 }
 
 .hero {
-    position: auto;
+    position: relative;
 }
 
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
+    height: relative;
 }
 
 .hero h1 {
-    position: auto;
+    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -79,7 +79,7 @@ article {
 
 .hero article {
     border: 0px;
-    position: auto;
+    position: absolute;
 }
 
 .hero article img {

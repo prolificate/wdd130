@@ -8,8 +8,7 @@
 }
 
 header {
-    text-decoration: rgb(233 196 106);
-    background-color: rgb(106 89 107);
+    background-color: var(--primary-color);
     color: var(--accent2-color);
 }
 
@@ -35,9 +34,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-front);
-    text-decoration: rgb(106 89 107);
     color: var(--primary-color);
-    background-color: rgb(22 52 185);
     padding: 16px;
     width: 100%;
     text-align: center;

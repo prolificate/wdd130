@@ -1,6 +1,5 @@
 :root {
     --primary-color: #6a596b;
-    --secondary-color: #04790a;
     --accent1-color: #1634b9;
     --accent2-color: #e9c46a;
     --heading-front: "Times New Roman", "Georgia", serif;
@@ -16,7 +15,7 @@ header {
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -74,6 +73,10 @@ h1 {
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
+}
+
+.hero article {
+    border: 0px;
 }
 
 .hero article img {

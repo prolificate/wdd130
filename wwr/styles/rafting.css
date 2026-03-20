@@ -28,7 +28,7 @@ header,
 main,
 footer {
     width: 840px;
-    margin: o auto;
+    margin: auto;
     position: fixed;
 }
 

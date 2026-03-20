@@ -8,7 +8,8 @@
 }
 
 header {
-    background-color: var(--primary-color);
+    text-decoration: rgb(233 196 106);
+    background-color: rgb(106 89 107);
     color: var(--accent2-color);
 }
 
@@ -28,12 +29,15 @@ main,
 footer {
     width: 840px;
     margin: o auto;
+    position: fixed;
 }
 
 h1,
 h2 {
     font-family: var(--heading-front);
+    text-decoration: rgb(106 89 107);
     color: var(--primary-color);
+    background-color: rgb(22 52 185);
     padding: 16px;
     width: 100%;
     text-align: center;

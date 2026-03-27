@@ -1,7 +1,7 @@
 :root {
     --primary-color: #5f6272;
     --accent1-color: #1634b9;
-    --accent2-color: #e9c46a;
+    --accent2-color: var(--accent2-color);
     --heading-font: "Time New Roman", "Georgia", "serif"
         --body-font: "Arial", "Helvetica", "san-serif"
 }
@@ -52,6 +52,7 @@ nav a {
 }
 
 .hero h1 {
+    position: absolute;
     font-size: large;
     text-align: center;
 }
@@ -64,7 +65,11 @@ nav a {
     color: #eee;
 }
 
-.hero img {
+.hero article {
+    position: absolute;
+}
+
+.hero article img {
     float: right;
     width: 120px;
     margin: 1rem;

@@ -2,13 +2,12 @@
     --primary-color: #5f6272;
     --accent1-color: #1634b9;
     --accent2-color: #e9c46a;
-    --heading-front: "Times New Roman", "Georgia", serif;
-    --body-font: Arial, Helvetica, san-serif;
-
+    --heading-font: "Time New Roman", "Georgia", "serif"
+        --body-font: "Arial", "Helvetica", "san-serif"
 }
 
 * {
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -66,8 +65,7 @@ nav a {
 
 .hero img {
     float: right;
-    width: 100px;
-    height: 100px;
+    width: 120px;
     margin: 1rem;
 }
 
@@ -86,9 +84,6 @@ section {
     margin: 10px;
     background-color: #5f6272;
     color: #eee;
-}
-
-.history {
     display: grid;
     grid-template-columns: 1fr 150px 1fr;
     align-items: flex-start;
@@ -119,12 +114,10 @@ section h2 {
     flex-wrap: nowrap;
 }
 
-.gallery image {
+.gallery img {
     display: flex;
     flex-direction: row;
-    border: 1px solid #000;
     width: 100px;
-    height: auto;
 }
 
 .gallery figcaption {

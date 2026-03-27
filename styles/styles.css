@@ -16,6 +16,7 @@ nav a {
     color: #fff;
     padding: 0.5rem;
     display: block;
+    text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
 }
@@ -33,15 +34,16 @@ h1 {
     align-items: center;
 }
 
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0, 0, 0);
-    /*1️⃣*/
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2 {
@@ -62,7 +64,8 @@ p {
     padding: 0;
 }
 
-.grid header,
+.grid,
+header,
 footer {
     max-width: 840px;
     margin: 0 auto;

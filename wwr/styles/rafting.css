@@ -1,8 +1,7 @@
 :root {
     --primary-color: #5f6272;
     --accent1-color: #1634b9;
-    --accent2-color: var(--accent2-color);
-    --heading-font: "Time New Roman", "Georgia", "serif"
+    --accent2-color: #eee --heading-font: "Time New Roman", "Georgia", "serif"
         --body-font: "Arial", "Helvetica", "san-serif"
 }
 
@@ -29,6 +28,7 @@ nav ul {
 }
 
 nav a {
+    display: flex;
     padding: 5px 10px;
     border: 1px solid #000;
     text-decoration: none;
@@ -52,7 +52,6 @@ nav a {
 }
 
 .hero h1 {
-    position: absolute;
     font-size: large;
     text-align: center;
 }
@@ -63,10 +62,6 @@ nav a {
     margin: 10px;
     background-color: #5f6272;
     color: #eee;
-}
-
-.hero article {
-    position: absolute;
 }
 
 .hero article img {
@@ -134,10 +129,11 @@ footer {
     align-items: center;
     padding: 20px;
     border: 1px solid rgb(0 0 0 / 10%);
-    margin: 10px;
     background-color: lightgoldenrodyellow;
 }
 
 .socialmedia {
+    display: flex;
     text-decoration: none;
+    align-items: flex-end;
 }

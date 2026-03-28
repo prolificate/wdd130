@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Describe your home page here using your keywords like your name">
+    <meta name="author" content="Afolabi Eniola Naomi">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="week05/">Poll Form</a>
+            <link rel="stylesheet" href="styles/poll-form.css">
+        </nav>
+    </header>
+    <main>
+        <h1>WDD 130 | User Poll</h1>
+        <form>
+            <div class="form-item column2">
+                <label for="fullname">Fullname: </label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-item column2">
+                <label for="user's email address">Email address</label>
+                <input type="email" id="username" name="useremail" required>
+            </div>
+            <div class="form-item">
+                <label for="browser">What is your favorite browser</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-item">
+                <label for="pet">Do you have a favorite pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class="form-item">
+                <label for="feedback">List of places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4"
+                  placeholder="Lagos Nigeria, Accra Ghana, New York City"></textarea>
+                <button type="submit">Submit Poll</button>
+            </div>
+        </form>
+    </main>
+</body>
+<footer>
+
+</footer>

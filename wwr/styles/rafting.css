@@ -1,6 +1,6 @@
 :root {
     --primary-color: #5f6272;
-    --accent1-color: #1634b9;
+    --accent1-color: rgb(138, 138, 57);
     --accent2-color: #eee;
     --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -75,6 +75,7 @@ nav a {
 }
 
 .hero article img {
+    float: right;
     width: 120px;
     height: auto;
 }

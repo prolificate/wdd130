@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #5f6272;
+    --primary-color: #cbb7e3;
     --accent1-color: rgb(138, 138, 57);
-    --accent2-color: #eee;
+    --accent2-color: #ddd;
     --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -10,198 +10,122 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: var(--body-font);
 }
 
 header {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    background-color: var(--primary-color);
-    padding: 10px 20px;
-}
-
-.logo img {
-    border: 1px solid #000;
-    width: 100px;
-    height: auto;
-}
-
-nav ul {
+    background: var(--primary-color);
     display: flex;
-    list-style: none;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
 
+.logo {
+    width: 100px;
+    height: 80px;
+    background: #ddd;
+}
+
 nav a {
-    padding: 5px 10px;
-    border: 1px solid #000;
     text-decoration: none;
-    background-color: var(--accent2-color);
-    color: #000;
+    color: black;
+    border: 1px solid #555;
+    padding: 10px 15px;
+    margin-left: 5px;
+    background: #eee;
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-.body {
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
-}
-
-.heading {
-    display: flex;
-    justify-content: center;
-}
-
-form {
-    padding: 1rem;
-}
-
-.form {
-    display: grid;
-    grid-template-rows: auto;
-}
-
-.labels {
-    display: flex;
-    align-items: flex-end;
-}
-
-.hero {
-    position: relative;
-    margin: 1rem;
-    padding: 20px;
-    border: 1px solid rgb(0 0 0 / 10%);
-    background-color: var(--accent1-color);
-}
-
-.hero img {
-    margin: 1rem;
-}
-
-.hero h1 {
+.company-info {
     text-align: center;
+    margin: 20px 0;
 }
 
-.hero article {
-    display: flex;
-    justify-content: center;
+.company-info h1 {
+    margin-bottom: 10px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
-}
-
-.hero p {
     padding: 20px;
-    border: 1px solid rgb(0 0 0 / 10%);
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
 }
 
-.hero article img {
-    float: right;
-    width: 120px;
-    height: auto;
+.map {
+    background: #ddd;
+    height: 300px;
 }
 
-section {
-    padding: 20px;
-    border: 1px solid rgb(0 0 0 / 10%);
-    margin: 1rem;
-    background-color: var(--accent1-color);
-    color: #000;
-}
-
-.select {
+.contact-form {
     display: flex;
     flex-direction: column;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
-    display: inline;
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
 }
 
-input,
-textarea,
-button {
-    margin-left: 1rem;
-    padding: 0.50rem;
-    width: 300px;
+.contact-form textarea {
+    height: 80px;
 }
 
-.history {
-    display: grid;
-    grid-template-columns: 1fr 150px 1fr;
+.contact-form button {
+    padding: 10px;
+    background: #ccc;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #cbb7e3;
+}
+
+.checkbox {
+    margin: 10px 0;
+}
+
+.team {
+    border: 1px solid #999;
+    margin: 20px;
     padding: 20px;
-    border: 1px solid #000;
-    margin: 10px;
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-    align-items: center;
-    gap: 20px;
-}
-
-.history h2 {
-    grid-column: 1 / -1;
     text-align: center;
 }
 
-.history img {
-    width: 100px;
-    height: auto;
-}
-
-.adventure h2 {
-    text-align: center;
-}
-
-.gallery {
+.team-grid {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 10px;
+    justify-content: space-around;
+    margin-top: 20px;
+    border: 1px solid rgb(0 0 0 / 100);
+    padding: 2rem;
 }
 
-.gallery figure {
+.card {
     text-align: center;
-    max-width: 100px;
 }
 
-.gallery img {
+.card .img {
     width: 100px;
-}
-
-button {
-    margin: 1rem;
-    background-color: blue;
-    color: #eee;
-    border-radius: 0.5rem;
-    padding: 0.75rem;
-    font-size: 1.2rem;
-}
-
-button:hover {
-    background-color: rgb(105, 105, 161);
+    height: 80px;
 }
 
 footer {
+    background: #cbb7e3;
     display: flex;
     justify-content: space-between;
+    padding: 15px;
     align-items: center;
-    padding: 20px;
-    border: 1px solid rgb(0 0 0 / 10%);
-    background-color: var(--primary-color);
 }
 
-.socialmedia {
+.icons {
     display: flex;
     gap: 10px;
-    align-items: center;
+}
+
+.icons div {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
 }

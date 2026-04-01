@@ -4,94 +4,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us Rapids- White Water Rafting</title>
-    <meta name="description" content="Rapids provides Wet Water Rafting for close relations, family and friends. A place to have fun 
-     and spend quality time with family and friends.">
+    <title>Contact Us</title>
     <meta name="author" content="Afolabi Eniola Naomi">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
+
     <header>
         <div class="logo">
             <img src="images/rafting.jpeg" alt="Our Logo">
         </div>
-        <nav class="socialmedia">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Trips</a>
+            <a href="#">Contact Us</a>
         </nav>
     </header>
 
-    <body>
+    <section class="company-info">
         <h1>Rapids Water Rafting Company</h1>
-        <div class="heading">
-            <span>
-                <p>123 Ikeja Main Road</p>
-                <p>+234 802 3456 789</p>
-                <p>info@hotmail.com</p>
-            </span>
-        </div>
-        <div class="body">
+        <p>123 Ikeja Main Road</p>
+        <p>Lagos, Nigeria</p>
+        <p>+234 802 3456 789</p>
+        <p>Rapids@hotmail.com</p>
+    </section>
+
+    <section class="contact-container">
+
+        <div class="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15853.813051658715!2d3.3471232314140495!3d6.590447060506432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1774891843996!5m2!1sen!2sng"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <form class="form">
-                <div class="labels">
-                    <label for="name">Name </label>
-                    <input type="text" name="name" id="name" required
-                      placeholder="First and Last name">
-                </div>
-                <div class="labels">
-                    <label for="email">Email </label>
-                    <input type="email" name="email" id="email" required
-                      placeholder="email@gmail.com">
-                </div>
-                <div class="labels">
-                    <p class="message">Message Purpose </p>
-                    <div class="select">
-                        <label for="inquiry">General inquiry</label>
-                        <input type="radio" name="inquiry" id="inquiry">
-                        <label for="inquiry">Reservation Questions</label>
-                        <input type="radio" name="question" id="question">
-                        <label for="inquiry">Website Suggestion</label>
-                        <input type="radio" name="suggestion" id="suggestion">
-                    </div>
-                </div>
-                <div class="labels">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="3"></textarea>
-                </div>
-                <div class="label">
-                    <button>Get in touch</button>
-                </div>
-                <div class="label">
-                    <label for="question">Subscribe me to the monthly newsletter</label>
-                    <input type="checkbox" id="question" name="question">
-                </div>
-            </form>
+              width="600" height="450" style="border:0;" allowlscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
-        </main>
 
-        <footer>
-            <p>©️2026, 💦Rapids💦, Afolabi Eniola</p>
-            <nav class="socialmedia">
-                <a href="https://facebook.com">
-                    <img src="images/facebook_3536394.png" alt="Facebook Icon" width="80">
-                </a>
-                <a href="https://linkedIn.com">
-                    <img src="images/linkedin_725337.png" alt="linkedIn" width="80">
-                </a>
-                <a href="https://instagram.com">
-                    <img src="images/instagram_408758.png" alt="Instagram" width="80">
-                </a>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Fullname">
 
-            </nav>
-        </footer>
-    </body>
+            <label for="email">Email</label>
+            <input type="email" placeholder="email">
+
+            <p>Message Purpose</p>
+            <label><input type="radio" name="purpose"> General Inquiry</label>
+            <label><input type="radio" name="purpose"> Reservation Question</label>
+            <label><input type="radio" name="purpose"> Website Suggestion</label>
+
+            <label for="message">Message</label>
+            <textarea placeholder="Type here"></textarea>
+
+            <label class="checkbox">
+                <input type="checkbox"> Please Subscribe me to the monthly newsletter
+            </label>
+
+            <button type="submit">Get in Touch!</button>
+        </form>
+
+    </section>
+
+
+    <section class="team">
+        <h2>We Are Here to Serve You</h2>
+
+        <div class="team-grid">
+            <div class="card">
+                <div class="img">
+                    <img src="images/worker1..jpeg" alt="worker1" width="80">
+                </div>
+                <p>Employee Profile</p>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="images/worker 2.jpeg" alt="worker2" width="80">
+                </div>
+                <p>Employee Profile</p>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="images/worker3.jpeg" alt="worker3" width="80">
+                </div>
+                <p>Employee Profile</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>©️2026, 💦Rapids💦, Afolabi Eniola</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook_3536394.png" alt="Facebook Icon" width="80">
+            </a>
+            <a href="https://linkedIn.com">
+                <img src="images/linkedin_725337.png" alt="linkedIn" width="80">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram_408758.png" alt="Instagram" width="80">
+            </a>
+
+        </nav>
+    </footer>
+
+</body>
 
 </html>

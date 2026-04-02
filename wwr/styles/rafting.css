@@ -45,7 +45,7 @@ nav a {
     margin-bottom: 10px;
 }
 
-.contact-container {
+.contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -119,12 +119,12 @@ footer {
     align-items: center;
 }
 
-.icons {
+.socialmedia {
     display: flex;
     gap: 10px;
 }
 
-.icons div {
+.socialmedia div {
     width: 30px;
     height: 30px;
     border: 1px solid #000;

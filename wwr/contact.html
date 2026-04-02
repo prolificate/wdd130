@@ -20,7 +20,7 @@
 
         <nav>
             <a href="index.html">Home</a>
-            <a href="about copy.html">About Us</a>
+            <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
         </nav>
@@ -53,16 +53,19 @@
                 <input type="email" placeholder="email">
 
                 <p>Message Purpose</p>
-                <label for="purpose"><input type="radio" name="purpose"> General Inquiry</label>
-                <label for="purpose"><input type="radio" name="purpose"> Reservation
+                <label for="purpose"><input type="radio" id="purpose" name="purpose"> General
+                    Inquiry</label>
+                <label for="purpose"><input type="radio" id="purpose" name="purpose"> Reservation
                     Question</label>
-                <label for="purpose"><input type="radio" name="purpose"> Website Suggestion</label>
+                <label for="purpose"><input type="radio" id="purpose" name="purpose"> Website
+                    Suggestion</label>
 
                 <label for="message">Message</label>
-                <textarea placeholder="Type here"></textarea>
+                <textarea id="message" name="message" placeholder="Type here"></textarea>
 
                 <label class="checkbox">
-                    <input type="checkbox"> Please Subscribe me to the monthly newsletter
+                    <input type="checkbox" id="body" name="box"> Please Subscribe me to the monthly
+                    newsletter
                 </label>
 
                 <button type="submit">Get in Touch!</button>

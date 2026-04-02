@@ -53,8 +53,8 @@ nav a {
 }
 
 .map {
-    background: #ddd;
-    height: 300px;
+    padding: 2rems;
+    margin: 1rem;
 }
 
 .contact-form {

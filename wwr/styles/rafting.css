@@ -23,7 +23,6 @@ header {
 
 .logo {
     width: 100px;
-    height: 80px;
     background: #ddd;
 }
 
@@ -36,13 +35,72 @@ nav a {
     background: #eee;
 }
 
-.company-info {
-    text-align: center;
-    margin: 20px 0;
+.hero {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 100);
+    padding: 1rem;
 }
 
-.company-info h1 {
-    margin-bottom: 10px;
+.hero h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.hero article {
+    display: flex;
+    border: 1px solid #999;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.hero article img {
+    width: 100px;
+    height: 80px;
+}
+
+.history {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 100);
+    padding: 1rem;
+}
+
+.history h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+}
+
+.about img {
+    margin: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.adventure {
+    border: 1px solid #999;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border: 1px solid rgb(0 0 0 / 100);
+    padding: 2rem;
+}
+
+.sites {
+    text-align: center;
+}
+
+.sites img {
+    width: 100px;
+    height: 80px;
 }
 
 .contact {

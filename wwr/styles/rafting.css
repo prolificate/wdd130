@@ -282,6 +282,48 @@ h2 {
     text-align: center;
 }
 
+.pot-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.pot-section img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.pot {
+    position: absolute;
+    top: 50%;
+    min-width: 700px;
+    padding: 16px;
+    border-radius: 10px;
+    color: #fff;
+    opacity: 0.7;
+    background-color: rgb(0, 0, 0.4);
+}
+
+.pot h1 {
+    margin-bottom: 20px;
+}
+
+.pot a {
+    position: absolute;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #b8490a;
+    color: #000;
+}
+
+.pot a:hover {
+    background-color: #cbb7e3;
+}
+
 .trip {
     display: flex;
     flex-direction: column;

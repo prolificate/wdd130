@@ -73,11 +73,6 @@ nav a {
 
 .about {
     display: flex;
-}
-
-.about img {
-    margin: 1rem;
-    justify-content: center;
     text-align: center;
 }
 

@@ -16,6 +16,7 @@
 header {
     background: var(--primary-color);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -118,12 +119,13 @@ nav a {
 }
 
 .frame {
-    style: "border:0;"
+    scale: "border:0;"
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .contact-form input,
@@ -162,6 +164,7 @@ nav a {
 .team-grid {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 20px;
     border: 1px solid rgb(0 0 0 / 100);
     padding: 2rem;
@@ -369,6 +372,7 @@ tfoot tr {
 footer {
     background: #cbb7e3;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 15px;
     align-items: center;

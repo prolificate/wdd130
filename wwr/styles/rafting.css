@@ -117,6 +117,10 @@ nav a {
     margin: 1rem;
 }
 
+.frame {
+    style: "border:0;"
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -170,10 +174,6 @@ nav a {
 .card .img {
     width: 100px;
     height: 80px;
-}
-
-h2 {
-    justify-content: center;
 }
 
 .top-section {
@@ -384,5 +384,3 @@ footer {
     height: 30px;
     border: 1px solid #000;
 }
-
-.bellow

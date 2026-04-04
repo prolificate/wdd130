@@ -13,6 +13,13 @@
     font-family: var(--body-font);
 }
 
+header,
+main,
+footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 header {
     background: var(--primary-color);
     display: flex;
@@ -176,7 +183,7 @@ nav a {
 }
 
 .top-section {
-    background-image: url('ground.jpg');
+    background-image: url('back.jpg');
     background-size: cover;
     background-position: center;
     height: auto;

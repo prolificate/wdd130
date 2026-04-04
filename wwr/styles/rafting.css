@@ -114,12 +114,8 @@ nav a {
 }
 
 .map {
-    padding: 2rems;
-    margin: 1rem;
-}
 
-.frame {
-    scale: "border:0;"
+    margin: 1rem;
 }
 
 .contact-form {

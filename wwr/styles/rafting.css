@@ -83,27 +83,20 @@ nav a {
     position: absolute;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    gap: 20px;
     top: 30%;
     left: 20%;
-    background-color: rgba(221, 253, 255, 0.4);
-    padding: 20px;
-    border-radius: 4px;
 }
 
-.hero-text h1 {
-    display: flex;
+.hero-text p {
+    font-size: 50px;
     color: #fff;
-    background-color: rgba(221, 253, 255, 0.4);
-    padding: 20px;
 }
 
 .hero-text a {
     text-decoration: none;
     border-radius: 5px;
+    margin: 10px 100px;
     padding: 1rem;
-    bottom: 10%;
     background-color: #b8490a;
     color: #000;
 }

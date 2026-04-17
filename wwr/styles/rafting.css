@@ -98,7 +98,7 @@ nav a {
     border-radius: 5px;
     padding: 1rem;
     background-color: #b8490a;
-    color: #000;
+    color: #ddd;
 }
 
 .hero-text a:hover {
@@ -313,7 +313,7 @@ h2 {
     border-radius: 5px;
     padding: 1rem;
     background-color: #b8490a;
-    color: #000;
+    color: #ddd;
 }
 
 .pot a:hover {
@@ -376,7 +376,7 @@ td {
 thead th,
 tfoot tr {
     background-color: #b8490a;
-    color: #fff;
+    color: #ddd;
     font-weight: 700;
 }
 

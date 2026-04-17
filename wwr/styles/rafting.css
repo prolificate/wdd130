@@ -98,7 +98,7 @@ nav a {
     border-radius: 5px;
     padding: 1rem;
     background-color: #b8490a;
-    color: #ddd;
+    color: #FFFFFF;
 }
 
 .hero-text a:hover {
@@ -249,7 +249,7 @@ h2 {
     border-radius: 5px;
     padding: 1rem;
     background-color: #b8490a;
-    color: #ddd;
+    color: #FFFFFF;
 }
 
 .news button:hover {
@@ -313,7 +313,7 @@ h2 {
     border-radius: 5px;
     padding: 1rem;
     background-color: #b8490a;
-    color: #ddd;
+    color: #FFFFFF;
 }
 
 .pot a:hover {
@@ -355,7 +355,7 @@ h2 {
     border-radius: 5px;
     padding: 1px;
     background-color: #b8490a;
-    color: #ddd;
+    color: #FFFFFF;
 }
 
 table {
@@ -376,7 +376,7 @@ td {
 thead th,
 tfoot tr {
     background-color: #b8490a;
-    color: #ddd;
+    color: #FFFFFF;
     font-weight: 700;
 }
 
@@ -407,7 +407,7 @@ tfoot tr {
     padding: 1rem;
     text-decoration: none;
     background-color: #b8490a;
-    color: #ddd;
+    color: #FFFFFF;
 }
 
 footer {

@@ -97,7 +97,7 @@ nav a {
     text-decoration: none;
     border-radius: 5px;
     padding: 1rem;
-    background-color: #b8490a;
+    background-color: #7A3008;
     color: #FFFFFF;
 }
 
@@ -248,7 +248,7 @@ h2 {
 .news button {
     border-radius: 5px;
     padding: 1rem;
-    background-color: #b8490a;
+    background-color: #7A3008;
     color: #FFFFFF;
 }
 
@@ -312,7 +312,7 @@ h2 {
     text-decoration: none;
     border-radius: 5px;
     padding: 1rem;
-    background-color: #b8490a;
+    background-color: #7A3008;
     color: #FFFFFF;
 }
 
@@ -354,7 +354,7 @@ h2 {
 .more {
     border-radius: 5px;
     padding: 1px;
-    background-color: #b8490a;
+    background-color: #7A3008;
     color: #FFFFFF;
 }
 
@@ -375,7 +375,7 @@ td {
 
 thead th,
 tfoot tr {
-    background-color: #b8490a;
+    background-color: #7A3008;
     color: #FFFFFF;
     font-weight: 700;
 }
@@ -406,7 +406,7 @@ tfoot tr {
     border-radius: 5px;
     padding: 1rem;
     text-decoration: none;
-    background-color: #b8490a;
+    background-color: #7A3008;
     color: #FFFFFF;
 }
 
